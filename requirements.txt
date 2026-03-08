@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+elasticsearch
+watchdog
+pandas
+requests
+google-generativeai
+python-dotenv
