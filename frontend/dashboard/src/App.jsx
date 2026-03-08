@@ -45,10 +45,10 @@ function App() {
 
   const getSeverityColor = (sev) => {
     switch (sev?.toLowerCase()) {
-      case 'critical': return 'text-alertRed bg-alertRed/10 border-alertRed/30';
-      case 'high': return 'text-warnOrange bg-warnOrange/10 border-warnOrange/30';
+      case 'critical': return 'text-[#FF4136] bg-[#FF4136]/10 border-[#FF4136]/30 shadow-[0_0_15px_rgba(255,65,54,0.3)] animate-pulse';
+      case 'high': return 'text-[#FF851B] bg-[#FF851B]/10 border-[#FF851B]/30 shadow-[0_0_10px_rgba(255,133,27,0.2)]';
       case 'medium': return 'text-yellow-400 bg-yellow-400/10 border-yellow-400/30';
-      default: return 'text-neonGreen bg-neonGreen/10 border-neonGreen/30';
+      default: return 'text-[#66FCF1] bg-[#66FCF1]/10 border-[#66FCF1]/30';
     }
   };
 
